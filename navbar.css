@@ -61,6 +61,14 @@ nav {
   justify-content: space-between;
   padding: 0px 50px 0px 100px;
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: #0d1825;
+}
 nav .menu-btn i {
   color: #fff;
   font-size: 22px;
@@ -98,7 +106,7 @@ nav ul li a.active {
   .links {
     height: 0;
     overflow: hidden;
-    transition: var(--transition);
+    transition: 0.3s;
   }
 
   .show-links {
@@ -127,4 +135,8 @@ nav ul li a.active {
     color: cyan;
     background: none;
   }
+}
+
+.hero {
+  width: 100%;
 }
